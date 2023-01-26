@@ -148,9 +148,8 @@ li:last-child {
 .cart-btn:hover {
   background-color: #ffffff;
   color: black;
+  border: none;
   border-top: 5px black solid;
-
-  /* border: none; */
 }
 
 .image {
