@@ -1,0 +1,40 @@
+.loader {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.color {
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  border-radius: 50%;
+  position: relative;
+  background-color: #c92d78;
+  /* animation-delay: 0.5s; */
+}
+.color-1 {
+  animation: pulse 1.5s infinite linear;
+  /* animation-delay: 0.25s; */
+}
+.color-2 {
+  animation: pulse 1.5s infinite linear;
+  animation-delay: 0.25s;
+}
+.color-3 {
+  animation: pulse 1.5s infinite linear;
+  animation-delay: 0.5s;
+}
+@keyframes pulse {
+  0% {
+    scale: 1;
+  }
+  60% {
+    scale: 0;
+  }
+  100% {
+    scale: 1;
+  }
+}
